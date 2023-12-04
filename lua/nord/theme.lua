@@ -149,6 +149,9 @@ theme.loadEditor = function()
 		CommandMode = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" },
 		Warnings = { fg = nord.nord15_gui },
 
+		-- Lualine cwd
+		LualineCwd = { fg = nord.nord12_gui, bg = nord.nord1_gui, style = "bold" },
+
 		healthError = { fg = nord.nord11_gui },
 		healthSuccess = { fg = nord.nord14_gui },
 		healthWarning = { fg = nord.nord15_gui },
