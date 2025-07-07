@@ -1,7 +1,9 @@
 local named_colors = require("nord.named_colors")
+local alt_named_colors = require("nord.colors_alt")
 
 local dark_colors = {
 	nord0_gui = named_colors.black, -- nord0 in palette
+	nord0_gui_alt = alt_named_colors.darker_black, -- nord0 in palette, alternative
 	nord1_gui = named_colors.dark_gray, -- nord1 in palette
 	nord2_gui = named_colors.gray, -- nord2 in palette
 	nord3_gui = named_colors.light_gray, -- nord3 in palette

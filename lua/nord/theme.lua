@@ -93,7 +93,7 @@ theme.loadEditor = function()
 
 	local editor = {
 		NormalFloat = { fg = nord.nord4_gui, bg = nord.float }, -- normal text and background color
-		FloatBorder = { fg = nord.nord4_gui, bg = nord.float }, -- normal text and background color
+		FloatBorder = { fg = nord.nord0_gui_alt, bg = nord.float }, -- normal text and background color
 		ColorColumn = { fg = nord.none, bg = nord.nord1_gui }, --  used for the columns set with 'colorcolumn'
 		Conceal = { fg = nord.nord1_gui }, -- placeholder characters substituted for concealed text (see 'conceallevel')
 		Cursor = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" }, -- the character under the cursor
@@ -147,6 +147,7 @@ theme.loadEditor = function()
 		ReplacelMode = { fg = nord.nord11_gui, bg = nord.none, style = "reverse" },
 		VisualMode = { fg = nord.nord9_gui, bg = nord.none, style = "reverse" },
 		CommandMode = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" },
+		WinSeparator = { fg = nord.nord0_gui_alt },
 		Warnings = { fg = nord.nord15_gui },
 
 		-- Lualine cwd
@@ -524,6 +525,15 @@ theme.loadPlugins = function()
 		TelescopeSelectionCaret = { fg = nord.nord9_gui },
 		TelescopeSelection = { fg = nord.nord6_gui, bg = nord.nord2_gui },
 		TelescopeMatching = { link = "Special" },
+
+		-- Snacks
+		SnacksPickerTitle = { fg = nord_alt.black, bg = nord_alt.orange },
+		SnacksPickerInputTitle = { fg = nord_alt.black, bg = nord_alt.baby_pink },
+		SnacksPickerToggle = { fg = nord_alt.black, bg = nord_alt.baby_pink },
+		SnacksPickerInputBorder = { fg = nord_alt.darker_black, bg = nord_alt.black },
+		SnacksPickerListBorder = { fg = nord_alt.darker_black, bg = nord_alt.black },
+		SnacksPickerPreviewBorder = { fg = nord_alt.darker_black, bg = nord_alt.black },
+		SnacksPickerPreviewTitle = { fg = nord_alt.black, bg = nord_alt.nord_blue },
 
 		-- StatusLine NvChad
 		St_cwd_txt = { fg = nord_alt.orange, nord.light_gray },
