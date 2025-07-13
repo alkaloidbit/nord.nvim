@@ -609,7 +609,7 @@ theme.loadPlugins = function()
 		NvimTreeGitDeleted = { fg = nord.nord11_gui }, -- diff mode: Deleted line |diff.txt|
 		NvimTreeGitIgnored = { fg = nord.nord3_gui_bright },
 		LspDiagnosticsError = { fg = nord.nord12_gui },
-		LspDiagnosticsWarning = { fg = nord.nord15_gui },
+		LspDiagnosticsWarning = { fg = nord.nord13_gui },
 		LspDiagnosticsInformation = { fg = nord.nord10_gui },
 		LspDiagnosticsHint = { fg = nord.nord9_gui },
 
